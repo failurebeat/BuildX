@@ -1,0 +1,590 @@
+/*Google Fonts Montserrat & Roboto Integration*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Roboto:300,400,500,700,900&display=swap');
+
+/*Global CSS*/
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2 {
+	text-align: center;
+	text-transform: uppercase;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+	color: #8a8fab;
+}
+.btn:focus,
+.btn:hover {
+	box-shadow: none;
+}
+
+/*Header Section CSS Start*/
+header {
+	background: #f5f5f5;
+	padding: 10px 0px;
+	font-size: 14px;
+}
+.quistion {
+	float: left;
+}
+header a .fa {
+	margin-left: 25px;
+	margin-right: 5px;
+	color: #696969;
+	transition: 0.3s ease-in-out;
+}
+header a {
+	color: #696969;
+	float: right;
+	transition: 0.3s ease-in-out;
+}
+header a:hover,
+header a:hover .fa {
+	color: #f48a19;
+    text-decoration: none;
+}
+/*Header Section CSS End*/
+
+/*Navbar Section CSS Start*/
+.navbar,
+.navbar-brand {
+	padding: 0px
+}
+.logo {
+	padding: 10px 0px;
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+	color: #fab702;
+}
+.nav-link-custom {
+	color: #696969;
+	border-bottom: 3px solid #fff;
+	padding-left: 20px !important;
+	margin-top: 17px;
+	padding-bottom: 20px;
+	transition: 0.3s ease-in-out;
+}
+.nav-link-custom:hover {
+	color: #f48a19 !important;
+	border-bottom: 3px solid #f48a19;
+}
+/*Navbar Section CSS End*/
+
+
+/*Banner Section CSS Start*/
+.banner {
+	background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banner-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 550px;
+}
+.banner h1 {
+    color: #fff;
+    text-align: left;
+    font-weight: 900;
+    font-size: 50px;
+    margin-top: 130px;
+    margin-bottom: 15px;
+}
+.banner p {
+    color: #fff;
+    width: 80%;
+}
+.banner .btn-explore {
+	background: #fab702;
+	border-radius: 1px;
+	color: #fff;
+	margin-left: 15px;
+	margin-top: 15px;
+	transition: all 0.3s ease-in-out;
+}
+.banner .btn-explore:hover {
+	background: #f48a19;
+}
+/*Banner Section CSS End*/
+
+
+/*Contact Us Today Section CSS Start*/
+.today {
+	background: #fab702;
+	padding: 15px 0px 0px;
+}
+.today p {
+    color: #fff;
+    margin-top: 7px;
+}
+.today .highlight-contact {
+	transition: 0.3s all ease-in-out;
+}
+.today .highlight-contact:hover {
+	color: #fff;
+}
+.today a {
+    font-style: italic;
+    color: #000;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+.today .btn-quote {
+	text-decoration: none;
+	background: #fff;
+	border-radius: 1px;
+	color: #fab702;
+	float: right;
+	margin-bottom: 16px;
+	font-style: normal;
+	transition: all 0.3s ease-in-out;
+}
+.today .btn-quote:hover {
+	background: #f48a19;
+	color: #fff;
+}
+/*Contact Us Today Section CSS End*/
+
+/*Service Sectio CSS Start*/
+.service {
+	margin-bottom: 60px;
+}
+.service h2 {
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.service .service-lorem {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+.service img {
+    width: 100%;
+}
+.service h4 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+.service h4:hover {
+	color: #f48a19;
+	cursor: pointer;
+}
+.read-more {
+	color: #8a8fab;
+	font-weight: 500;
+	padding-bottom: 7px;
+	transition: 0.3s ease-in-out;
+	border-bottom: 2px solid #fff;
+	text-transform: uppercase;
+}
+.read-more:hover {
+	color: #f48a19;
+	border-bottom: 2px solid #f48a19;
+	text-decoration: none;
+}
+/*Service Sectio CSS End*/
+
+/*Video Section CSS Start*/
+
+/*Video Left Section CSS*/
+.video-area {
+	background: #f8f8f8;
+}
+.video-area .video {
+    padding: 0px;
+}
+.video-area .video-img {
+	position: relative;
+}
+.video-area .play-button {
+    position: absolute;
+    right: 45px;
+    bottom: 25px;
+    width: 7%;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+.video-area .play-button:hvoer {
+	cursor: pointer;
+	opacity: 1,
+}
+
+/*Video Left Section CSS */
+.video-right {
+    margin-top: 55px;
+}
+.video-right img {
+    width: 60%;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.video-right h4 {
+	color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+.video-right h4:hover {
+	color: #f48a19;
+	cursor: pointer;
+}
+.video-right p {
+    width: 80%;
+    margin-bottom: 40px;
+}
+/*Video Section CSS End*/
+
+/*Work Section CSS Start*/
+.work {
+    padding: 60px 0px 70px;
+}
+.work h2 {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.work p {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.btn-port {
+    color: #fab702 !important;
+    font-weight: 500;
+    padding: 10px 20px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #fff;
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-port:hover {
+	color: #f48a19 !important;
+	border-bottom: 3px solid #f48a19;
+}
+.feature-item {
+    margin: 0px;
+    padding: 0px;
+}
+.feature-image {
+	width: 100%;
+	transition: 0.4s;
+}
+.feature-image:hover {
+	transform: scale(0.97);
+}
+/*Work Section CSS End*/
+
+/*Feedback Section CSS Start*/
+.feedback {
+    margin-bottom: 50px;
+}
+.feedback-top h2 {
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.feedback-top p {
+    width: 67%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.feedback-bottom {
+	background: #f9f9f9;
+}
+.feedback-bottom-left {
+    float: left;
+    margin-right: 15px;
+}
+.feedback-bottom-right {
+    float: right;
+    margin-left: 15px;
+}
+.feedback-col {
+	padding: 0px;
+}
+.feedback-bottom img {
+    width: 100%;
+    padding: 0px;
+}
+.feedback-bottom p {
+    margin-top: 40px;
+    padding-left: 27px;
+    font-size: 13px;
+}
+.feedback-highlight {
+    margin: 0px 0px !important;
+    font-weight: 600;
+    color: #000;
+}
+.logo-image {
+    margin-top: 65px;
+}
+/*Feedback Section CSS End*/
+
+/*Count Section CSS Start*/
+.count {
+	background: #fab702;
+	padding: 35px 0px 20px;
+}
+.count p {
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 0;
+	text-align: center;
+}
+.count h2 {
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+}
+/*Count Section CSS End*/
+
+/*Contact Section CSS Start*/
+.contact {
+    background: #f9f9f9;
+    padding: 100px 0px 70px;
+}
+.contact-body {
+	background: #fff;
+}
+.contact-margin-left {
+    border-left: 4px solid #fab702;
+    padding: 40px 25px 25px 30px;
+}
+.contact h6 {
+    font-weight: 600;
+    font-size: 18px;
+}
+.contact .btn-contact {
+    background: #fab702;
+    margin: 46px -25px;
+    border-radius: 0px;
+    color: #fff;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.contact .btn-contact:hover {
+	background: #f48a19;
+}
+/*Contact Section CSS End*/
+
+/*News Section CSS Start*/
+.news {
+	margin-bottom: 60px;
+}
+.news h2 {
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.news .news-lorem {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+.news img {
+    width: 100%;
+}
+.news h4 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    width: 80%;
+}
+.news h4:hover {
+	color: #f48a19;
+	cursor: pointer;
+}
+.fa-calendar-o {
+	display: inline-block;
+	font-size: 13px;
+}
+.news-date {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 12px;
+	display: inline-block;
+}
+/*News Section CSS End*/
+
+/*Footer Section CSS Start*/
+footer {
+	background: #252c3a;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+footer h5 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    width: 50%;
+    border-bottom: 2px solid #7b7b7b7a;
+    transition: all 0.3s ease-in-out;
+}
+footer h5:hover {
+	border-color: #f48a19;
+	cursor: pointer;
+}
+footer ul {
+	padding: 0px;
+}
+footer ul li {
+	list-style: none;
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #7b7b7b7a;
+	transition: all 0.3s ease-in-out;
+}
+footer ul li:hover {
+	border-color: #f48a19;
+	cursor: pointer;
+}
+.fa-angle-double-right {
+    padding-right: 10px;
+}
+footer img {
+	width: 90%;
+	top: 2px;
+	position: absolute;
+}
+footer p {
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+}
+.recent-news-margin {
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+.recent-p {
+    margin-bottom: 0px;
+}
+.email-info-email {
+	padding-left: 10px;
+}
+.email-info-phone {
+    padding-left: 12px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+.email-info-fax {
+    padding-left: 30px;
+}
+.contact-margin {
+	border-bottom: 2px solid #7b7b7b7a;
+	transition: all 0.3s ease-in-out;
+}
+.contact-margin:hover {
+	border-color: #f48a19;
+	cursor: pointer;
+}
+.date-highlight {
+    margin-bottom: 10px;
+}
+.fa {
+	transition: all 0.3s ease-in-out;
+}
+.fa-envelope-o {
+    color: #fff;
+}
+.fa-phone {
+    color: #fff;
+}
+.social-link {
+    padding: 10px 0px 0px;
+}
+.fa-facebook {
+    color: #fff;
+    display: inline-flex;
+}
+.fa-skype {
+    color: #fff;
+    display: inline-flex;
+    padding: 0px 10px;
+}
+.fa-pinterest {
+    color: #fff;
+    display: inline-flex;
+}
+.fa:hover {
+	color: #f48a19;
+	cursor: pointer;
+}
+.mailing {
+    padding-left: 0px;
+    border-bottom: none;
+}
+.form-custom {
+    padding: 5px 10px;
+    width: 73%;
+    padding-right: 10px;
+    position: relative;
+}
+.btn-done {
+    color: #fff;
+    background: #fab702;
+    position: absolute;
+    right: 20px;
+    border-radius: 0px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-done:hover {
+	background: #f48a19;
+	color: #fff;
+	cursor: pointer;
+}
+/*Footer Section CSS End*/
+
+/*Footer Section Bottom CSS Start*/
+
+/*Footer Section Bottom CSS Left*/
+.footer-bottom {
+	background: #4c5b6d;
+}
+.footer-bottom p {
+	color: #d8deff;
+	font-size: 12px;
+	padding-top: 16px;
+}
+/*Footer Section Bottom CSS Right*/
+.footer-bottom-right {
+	float: right;
+	padding-top: 12px;
+}
+.footer-bottom a {
+	color: #d8deff;
+	font-size: 12px;
+	margin-left: 10px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #4c5b6d;
+	transition: 0.3s ease-in-out;
+}
+.footer-bottom a:hover {
+	color: #f48a19;
+    border-bottom: 2px solid #f48a19;
+    text-decoration: none;
+}
+/*Footer Section Bottom CSS End*/
