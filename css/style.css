@@ -82,7 +82,8 @@ header a:hover .fa {
 	background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banner-bg.jpg);
 	background-size: cover;
 	background-position: center;
-	min-height: 550px;
+	background-attachment: fixed;
+    	min-height: 586px;
 }
 .banner h1 {
     color: #fff;
